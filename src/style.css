@@ -1,0 +1,118 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+  
+body {
+    background-color: #f9fafb;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+  }
+  
+  .navbar a.active {
+    color: #0b5cff;
+    font-weight: 600;
+  }
+  
+  .navbar button {
+    padding: 6px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    background: #fff;
+  }
+
+.auth-container {
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  min-height: 100vh;         /* full screen height */
+  background-color: #f9fafb; /* optional light bg */
+}
+
+  
+  .auth-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 24px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-box h2 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .auth-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .auth-box input {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+  
+    /* ADD / CHANGE THESE */
+    background-color: #ffffff; /* white background */
+    color: #000000;            /* black text */
+  }
+  
+  .auth-box input::placeholder {
+    color: #6b7280; /* grey placeholder text */
+  }
+  
+  
+  .auth-box button {
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .auth-box button:hover {
+    background: #1e40af;
+  }
+  
+  .auth-box p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  
+  .auth-box a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
